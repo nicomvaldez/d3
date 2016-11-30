@@ -7,7 +7,7 @@ globals.forEach(function(global) {
 });
 
 document = require("jsdom").jsdom("<html><head></head><body></body></html>");
-window = document.createWindow();
+window = document.defaultView;
 navigator = window.navigator;
 CSSStyleDeclaration = window.CSSStyleDeclaration;
 
