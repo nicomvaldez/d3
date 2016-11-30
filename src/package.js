@@ -17,7 +17,7 @@ require("util").puts(JSON.stringify({
     }
   },
   "dependencies": {
-    "jsdom": "0.2.14",
+    "jsdom": "4.0.2",
     "sizzle": "1.1.x"
   },
   "devDependencies": {
