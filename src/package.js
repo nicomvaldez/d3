@@ -7,7 +7,7 @@ require("util").puts(JSON.stringify({
   "keywords": ["dom", "w3c", "visualization", "svg", "animation", "canvas"],
   "homepage": "http://mbostock.github.com/d3/",
   "author": {"name": "Mike Bostock", "url": "http://bost.ocks.org/mike"},
-  "repository": {"type": "git", "url": "http://github.com/mbostock/d3.git"},
+  "repository": {"type": "git", "url": "http://github.com/nicomvaldez/d3.git"},
   "main": "index.js",
   "browserify" : "index-browserify.js",
   "jam": {
